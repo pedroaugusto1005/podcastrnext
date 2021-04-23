@@ -5,7 +5,7 @@ import { Player } from '../components/player';
 function MyApp({ Component, pageProps }) {
 
     return (
-        <div>
+        <div className={styles.wrapper}>
             <main>
             <Header />
             <Component {...pageProps} />
